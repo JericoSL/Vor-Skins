@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vorskin</title>
+    <link rel="stylesheet" href="Css/joinus.css" />
+    <link rel="icon" href="image/Vski.png" />
+    <script src="./joinus.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="topnav">
+        <img class="logo" src="image/logovorskin.png" alt="logo" />
+        <nav>
+          <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="promotions.html">Promotions</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a class="active" href="joinus.html">Join Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <form onsubmit="Validate()" method="get">
+      <center><h2>Join Us</h2></center>
+      <div class="inside">
+        <div class="Input">
+          <label for="name">Name</label>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Full Name"
+            name="name"
+            id="name"
+          />
+        </div>
+
+        <div class="Input">
+          <label for="email">Email</label>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Email"
+            name="email"
+            id="email"
+          />
+        </div>
+
+        <div class="Input">
+          <label for="phone">Phone Number</label>
+          <input
+            class="input-field"
+            type="tel"
+            placeholder="Phone"
+            name="phone"
+            id="phone"
+          />
+        </div>
+
+        <div class="Labelcheck">
+          <label for="preferences">Preferences:</label>
+        </div>
+        <div class="labelcheck">
+          <input type="checkbox" name="preferences" id="preferences" />
+          <label for="Bodycare">Bodycare</label>
+        </div>
+        <div class="Labelcheck">
+          <input type="checkbox" name="preference" id="preference" />
+          <label for="Skincare">Skincare</label>
+        </div>
+        <div class="Labelcheck">
+          <label>Gender: </label>
+        </div>
+        <div class="Labelcheck">
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+        </div>
+
+        <div class="Labelcheck">
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+        </div>
+
+        <div class="Submit">
+          <input
+            class="input-field"
+            type="button"
+            value="Submit"
+            onclick="Validate()"
+          />
+        </div>
+      </div>
+    </form>
+  </body>
+  <footer>
+    <div class="all">
+      <div class="row">
+        <div class="footers">
+          <h4>Where to buy?</h4>
+          <ul>
+            <li><a href="Error.html">Find authorized shop</a></li>
+          </ul>
+        </div>
+        <div class="footers">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="Error.html">Customer Service</a></li>
+            <li><a href="Error.html">Live Chat</a></li>
+            <li><a href="Error.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footers">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="Error.html">Privacy</a></li>
+            <li><a href="Error.html">Terms</a></li>
+          </ul>
+        </div>
+        <div class="footers">
+          <h4>Social media</h4>
+          <ul>
+            <li><a href="Error.html">Instagram</a></li>
+            <li><a href="Error.html">Twitter</a></li>
+            <li><a href="Error.html">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p>Copyright 2021-2022 Vorskin all rights reserved.</p>
+  </footer>
+</html>

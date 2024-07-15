@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Garogier;
+    src: url("font/Garogier.ttf");
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Garogier;
+}
+
+.main{
+    width: 100%;
+    min-height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.topnav{
+    width: 100%; 
+    text-align:center;
+   
+}
+
+.logo{
+   
+    display:inline-block;
+    width: 300px;
+    cursor: pointer;
+    margin: 10px 100px;
+   
+}
+
+
+nav{
+    
+    text-align: center;
+}
+
+nav ul li{
+    
+    font-size: 30px;
+    list-style: none;
+    display: inline-block;
+    padding: 20px 100px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 40px;
+}nav ul li a.active{
+    text-decoration: underline;
+    
+    text-decoration-thickness: 2px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #5c5c5c;
+    font-size: 40px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(242, 242, 242);
+    display: inline-block;
+    box-sizing: border-box;
+}
+.all{  
+    padding: 60px 100px; 
+    margin: auto;
+   font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footers{
+    padding: 20px 5%;
+}
+.footers h4{
+    font-size: 30px;
+    color: #747474;
+    padding-bottom: 20px;
+
+}
+.footers ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5c5c5c;
+}
+.footers ul li a:hover{
+    text-decoration: underline;
+}
+footer p{
+    margin-top: 50px;
+    font-size: 20px;
+    color: #1c1c1c;
+    float: right;
+    margin-right: 30px;
+  }
+
+  form{ 
+      margin: 5% 40%;
+    
+    background-repeat: no-repeat;
+    border-color: #acacac;
+    border-width: 2px;
+    border-style: solid;
+    outline: rgb(0, 0, 0);
+    border-radius: 2%;
+    padding:1% 1%;
+    padding-bottom: 3%;
+    font-size:x-large;
+    font-weight: bold;
+
+ } 
+ .inside{
+     color: #5c5c5c;
+ }
+ form h2{
+     color: #505050;
+    margin-bottom: 10%;
+ }
+ .Input{
+     
+     margin-bottom: 5%;
+    color: #747474;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     
+ }
+ .Input input{
+     border-color: #727272;
+     border-top: transparent;
+     border-left: transparent;
+     border-right: transparent;
+     margin-top: 2%;
+     width: 80%;
+     font-size: 20px;
+ }
+
+  .Submit input{
+      color: #424242;
+      margin-top: 2% ;
+      padding: 1% 2%;
+    background-color: rgb(233, 233, 233);
+    font-size: x-large;
+    border-radius: 3%;
+    
+    border-color: transparent;
+    
+  }
+  .Submit input:hover{
+    background-color: #cccccc;
+
+  }
+ label{
+ 
+     color: #696969;
+ }
+
+
+@media only screen and (max-width:800px){
+    .main{
+        
+     padding-left: 0%;
+    padding-right: 0%;
+       
+    
+    }
+    form{ 
+        margin: 5% 20%;
+    }
+    nav ul{
+       
+        width: 100%;
+        background-color: rgb(242, 242, 242);
+        
+        
+    }
+}
+
+
+
